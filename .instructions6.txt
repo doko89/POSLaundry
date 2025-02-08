@@ -1,1 +1,0 @@
-The routes for the admin pages, as specified in `CONTEXT.md`, are already defined in `routes/web.php`. They are grouped under `Route::middleware(['auth'])` and then further grouped under `Route::group(['middleware' => 'role:admin', 'prefix' => 'admin', 'as' => 'admin.'], function () { ... });`. No changes are needed.

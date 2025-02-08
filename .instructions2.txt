@@ -1,9 +1,0 @@
-The `role` column is added to the `users` table in the migration file `database/migrations/2024_01_01_000002_add_worker_fields_to_users_table.php`.
-
-To ensure the database schema is up-to-date, please run the following command in your terminal:
-
-```bash
-php artisan migrate
-```
-
-If you have already run the migrations, and the `role` column is still not present in your database, please double-check your database connection settings in your `.env` file. Also, ensure you are checking the correct database.

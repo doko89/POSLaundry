@@ -1,3 +1,0 @@
-The output from Tinker shows that user ID 1 has the role 'worker', while user ID 2 has the role 'admin'. The `/admin/dashboard` route requires the 'admin' role.
-
-Please ensure you are logged in as user ID 2 (the user with the 'admin' role) when trying to access the admin dashboard. Once you are logged in as the correct user, the error should be resolved.
