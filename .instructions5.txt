@@ -1,0 +1,1 @@
+The login route already exists in your application. It's handled by `Auth::routes()` in `routes/web.php`. This line automatically sets up the necessary routes for authentication, including the login route, which is typically accessed via `/login`. The previous issue was caused by a persistent login state due to browser cookies, not a missing route.

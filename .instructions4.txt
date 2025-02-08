@@ -1,0 +1,3 @@
+The redirection to the admin dashboard suggests a persistent authentication state. Please clear your browser cookies for `localhost:8000`. The steps to do this vary depending on your browser, but it usually involves going to your browser's settings, finding the privacy or security section, and managing site data or cookies.  Make sure to clear cookies specifically for `localhost:8000`.
+
+After clearing the cookies, try accessing `localhost:8000` again. You should be redirected to the login page.

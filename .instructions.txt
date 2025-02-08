@@ -1,0 +1,8 @@
+Please run the following commands in your terminal within the project directory:
+
+```bash
+php artisan route:clear
+php artisan route:cache
+```
+
+Then, try accessing the application again. This should resolve the "Target class [role] does not exist" error.

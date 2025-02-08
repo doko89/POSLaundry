@@ -1,0 +1,12 @@
+Please run the following commands in your terminal to clear all possible caches:
+
+```bash
+php artisan config:clear
+php artisan cache:clear
+php artisan route:clear
+php artisan view:clear
+php artisan optimize:clear
+composer dump-autoload
+```
+
+After running these commands, restart your web server and try accessing `/admin/dashboard` again.

@@ -1,0 +1,16 @@
+I cannot directly access your database. You will need to check the `users` table yourself. You can do this using a database management tool like phpMyAdmin, DBeaver, or the MySQL command-line client.
+
+Alternatively, if you are comfortable using the command line, you can use Laravel's Tinker to check the user's role. Run the following command in your terminal:
+
+```bash
+php artisan tinker
+```
+
+Then, in the Tinker shell, you can retrieve the user (replace '1' with the actual user ID) and check their role:
+
+```php
+$user = App\Models\User::find(1);
+echo $user->role;
+```
+
+Please check the `role` value for the user you are using to access `/admin/dashboard`. It should be 'admin'.
